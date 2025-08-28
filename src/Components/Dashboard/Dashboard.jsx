@@ -1,9 +1,10 @@
+import './Dashboard.css'
 import { Menu } from "../Menu/Menu";
-import { Operations } from "../Operations/Operations";
+import { Operations } from "../Operaciones/Operations";
 
 export function Dashboard(){
     return(
-        <div className="dashboard">
+        <div id="dashboard">
             <Menu/>
             <Operations />
         </div>

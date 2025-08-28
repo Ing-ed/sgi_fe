@@ -1,0 +1,31 @@
+/* #operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap:2em;
+} */
+#operations{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 20% 1fr;
+    flex-grow: 1;
+    justify-items: center;
+    align-items: center;
+}
+#operations h3{
+    grid-column: 1/ -1;
+}
+#operations #resp{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+}
+.operation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+padding-left: 2em;
+}

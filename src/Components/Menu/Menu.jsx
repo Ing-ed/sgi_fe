@@ -1,18 +1,19 @@
+import './Menu.css'
 import { useContext } from "react"
 import { Context } from "../Context/Context";
 export function Menu(){
     const {setState} = useContext(Context)
     function EventHandler(e){
-        console.log(e.target.textContent);
         setState(e.target.textContent);
     }
     return(
-        <div className="menu">
-            <p onClick={EventHandler} name = "Ingreso">Ingreso</p>
-            <p onClick={EventHandler} name = "Venta">Venta</p>
-            <p onClick={EventHandler} name = "Consulta">Consulta</p>
-            <p>Opcion</p>
-            <p>Opcion</p>
+        <div id="menu">
+            <ul>
+                <li><p onClick={EventHandler} name = "Ingreso">Ingreso</p></li>
+                <li><p onClick={EventHandler} name = "Venta">Venta</p></li>
+                <li><p onClick={EventHandler} name = "Consulta">Consulta</p></li>
+                <li><p>Opcion</p></li>
+            </ul>
         </div>
     )
 }

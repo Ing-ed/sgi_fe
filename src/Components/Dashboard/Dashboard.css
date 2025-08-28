@@ -1,0 +1,7 @@
+#dashboard{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    height: 100%;
+}

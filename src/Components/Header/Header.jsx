@@ -1,8 +1,9 @@
+import './Header.css'
 export function Header(){
     return(
-        <div className="header">
+        <div id="header">
             <p>Logo</p>
-            <p>Bienvenido</p>
+            <h1>Bienvenido</h1>
             <p>Salir</p>
         </div>
     )

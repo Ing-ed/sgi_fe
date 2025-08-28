@@ -1,0 +1,11 @@
+#header{
+    display: flex;
+    padding: 0.5em;
+    flex-direction: row;
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 5em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+}

@@ -1,0 +1,15 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    background-color: red;
+    padding-top: 3em;
+}
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+#menu ul li:hover{
+    cursor: pointer;
+}
